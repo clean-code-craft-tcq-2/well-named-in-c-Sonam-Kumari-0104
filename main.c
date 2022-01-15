@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "Test_cases.h"
+#include "Color_Pairs.h"
 
 numberOfMajorColors =
     sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
@@ -7,11 +8,6 @@ numberOfMajorColors =
 numberOfMinorColors =
     sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
-void ColorPairToString(const ColorPair* colorPair, char* buffer) {
-    sprintf(buffer, "%s %s",
-        MajorColorNames[colorPair->majorColor],
-        MinorColorNames[colorPair->minorColor]);
-}
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
