@@ -1,3 +1,4 @@
+#include <assert.h>
 #include "Declarations.h"
 
 void testNumberToPair(int pairNumber,
