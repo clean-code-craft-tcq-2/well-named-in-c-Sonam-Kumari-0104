@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Declarations.h"
+#include "Test_cases.h"
 
 numberOfMajorColors =
     sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
