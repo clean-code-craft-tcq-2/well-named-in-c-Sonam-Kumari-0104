@@ -1,4 +1,4 @@
-#include"ColorPairs.h"
+#include "ColorPairs.h"
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 
