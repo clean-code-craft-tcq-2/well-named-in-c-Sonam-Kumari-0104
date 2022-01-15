@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "Var_Declarations.h"
 #include "Color_Pairs.h"
 
@@ -8,9 +9,9 @@ const char* MinorColorNames[] = {
     "Blue", "Orange", "Green", "Brown", "Slate"
 };
 
-numberOfMajorColors =
+int numberOfMajorColors =
     sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);    
-numberOfMinorColors =
+int numberOfMinorColors =
     sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
