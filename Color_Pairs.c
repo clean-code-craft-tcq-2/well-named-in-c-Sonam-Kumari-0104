@@ -1,6 +1,13 @@
 #include "Var_Declarations.h"
 #include "Color_Pairs.h"
 
+const char* MajorColorNames[] = {
+    "White", "Red", "Black", "Yellow", "Violet"
+};
+const char* MinorColorNames[] = {
+    "Blue", "Orange", "Green", "Brown", "Slate"
+};
+
 numberOfMajorColors =
     sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);    
 numberOfMinorColors =
