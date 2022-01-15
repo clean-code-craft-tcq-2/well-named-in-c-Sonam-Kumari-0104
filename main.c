@@ -1,7 +1,4 @@
-gcc es3.c -c
-gcc es3.o main.c -o es3
 #include <stdio.h>
-#include <assert.h>
 #include "Test_cases.h"
 
 numberOfMajorColors =
