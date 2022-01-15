@@ -3,9 +3,6 @@
 #include "Test_cases.h"
 #include "Declarations.h"
 
-MAX_COLORPAIR_NAME_CHARS = 16;
-
-
 numberOfMajorColors =
     sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
     
