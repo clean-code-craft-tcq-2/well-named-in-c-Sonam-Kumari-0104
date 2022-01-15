@@ -4,13 +4,7 @@
 #include "Declarations.h"
 
 MAX_COLORPAIR_NAME_CHARS = 16;
-MajorColorNames[] = {
-    "White", "Red", "Black", "Yellow", "Violet"
-};
 
-MinorColorNames[] = {
-    "Blue", "Orange", "Green", "Brown", "Slate"
-};
 
 numberOfMajorColors =
     sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
