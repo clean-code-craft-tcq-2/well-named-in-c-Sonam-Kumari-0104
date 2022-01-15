@@ -1,4 +1,5 @@
-#include "Declarations.h"
+#include "Var_Declarations.h"
+#include "Color_Pairs.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
