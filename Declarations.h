@@ -10,6 +10,6 @@ int numberOfMajorColors;
 int numberOfMinorColors;
 
 typedef struct {
-     MajorColor majorColor;
-     MinorColor minorColor;
+    enum MajorColor majorColor;
+    enum MinorColor minorColor;
 } ColorPair;
