@@ -1,4 +1,4 @@
-#include "Variable_Declarations.h.h"
+#include "Variable_Declarations.h"
 
 /* ...................................Function Prototypes..................................... */
 void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
