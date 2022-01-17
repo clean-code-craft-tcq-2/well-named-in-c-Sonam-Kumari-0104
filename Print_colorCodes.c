@@ -1,4 +1,4 @@
-#inlcude <stdio.h>
+#include <stdio.h>
 #include "Print_colorCodes.h"
 #include "Variable_Declarations.h"
 #include "Color_Pairs.h"
