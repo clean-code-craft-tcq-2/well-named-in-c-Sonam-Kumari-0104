@@ -1,5 +1,5 @@
 #include "Print_colorCodes.h"
-#include "Variable_Declarartion.h"
+#include "Variable_Declarations.h"
 
 Void ColorCodingManual()
 {
