@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Variable_Declarations.h.h"
+#include "Variable_Declarations.h"
 #include "Color_Pairs.h"
 
 const char* MajorColorNames[] = {
