@@ -1,7 +1,8 @@
 #include "Print_colorCodes.h"
 #include "Variable_Declarations.h"
+#include "Color_Pairs.h"
 
-Void ColorCodingManual()
+void ColorCodingManual()
 {
 	printf("Color Coding Manual");
 	int pairNumber;
