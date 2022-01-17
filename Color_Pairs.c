@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Var_Declarations.h"
+#include "Variable_Declarations.h.h"
 #include "Color_Pairs.h"
 
 const char* MajorColorNames[] = {
@@ -20,6 +20,7 @@ void ColorPairToString(const ColorPair* colorPair, char* buffer) {
         MinorColorNames[colorPair->minorColor]);
 }
 
+/* Function to get the color from the pair number */
 ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
@@ -30,6 +31,7 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
     return colorPair;
 }
 
+/* Function to get pair number from color */
 int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
             colorPair->minorColor + 1;
