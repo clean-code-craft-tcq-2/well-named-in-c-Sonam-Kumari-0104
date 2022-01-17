@@ -1,0 +1,2 @@
+/* Function Prototype */
+void ColorCodingManual();
