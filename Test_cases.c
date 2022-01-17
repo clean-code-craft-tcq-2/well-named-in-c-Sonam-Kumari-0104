@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "Var_Declarations.h"
+#include "Variable_Declarations.h"
 #include "Color_Pairs.h"
 
 void testNumberToPair(int pairNumber,
